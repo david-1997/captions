@@ -1,0 +1,29 @@
+<div style="padding: 10px;">
+    <div style="display: flex;justify-content: center;">
+        <h1 style="text-align: center;font-size: 30px;width: fit-content;background-color: white">World of Captions</h1>
+
+    </div>
+    <h2 style="background-color: white">
+        Welcome to <span style="font-weight: 600;">World of Captions</span>, your ultimate source for creative and captivating captions for your Instagram posts. Are you tired of spending hours trying to come up with the perfect caption? Look no further! Our curated collection of captions is designed to make your posts stand out and engage your audience. From inspiring quotes to funny one-liners, we have captions for every occasion.
+    </h2>
+
+    <h2 style="background-color: white">
+        Note : Click on a caption to copy it to the clipboard.
+    </h2>
+    <mat-accordion class="custom-accordion">
+      <mat-expansion-panel style="margin-bottom: 10px" *ngFor="let category of captionCategories" (opened)="onCategorySelect(category)">
+        <mat-expansion-panel-header style="display: flex;" class="custom-header">
+          <mat-panel-title style="font-size: 20px;height: 25px !important">Instagram Captions/Quotes for {{ category.category }}</mat-panel-title>
+          <!-- <img style="margin-left: auto;height: 50px;margin-top: 5px;margin-right: 10px;" [src]="category.image" alt="Category Image"> -->
+
+        </mat-expansion-panel-header>
+        <!-- <div class="image-container">
+          <img [src]="category.image" alt="Category Image">
+        </div> -->
+        <ul class="caption-list">
+          <li *ngFor="let caption of category.captions" [cdkCopyToClipboard]="caption" (click)="openSnackBar()" style="font-size: 17.5px;cursor: pointer;margin-bottom: 10px;">{{ caption }}</li>
+        </ul>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+  

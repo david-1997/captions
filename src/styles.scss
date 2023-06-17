@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { 
+    margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-image: url("assets/pattern.jpg");
+    background-size:  300px;
+    background-repeat: repeat;
+    // display: none;
+}
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500,700");
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+// body {
+//     background-image: url("../assets/pattern.jpg");
+//     background-repeat: repeat-x;
+//     display: none;
+//   }
