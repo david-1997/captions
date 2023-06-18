@@ -13,7 +13,7 @@
     <mat-accordion class="custom-accordion">
       <mat-expansion-panel style="margin-bottom: 10px" *ngFor="let category of captionCategories" (opened)="onCategorySelect(category)">
         <mat-expansion-panel-header style="display: flex;" class="custom-header">
-          <mat-panel-title style="font-size: 20px;height: 25px !important">Instagram Captions/Quotes for {{ category.category }}</mat-panel-title>
+          <mat-panel-title style="font-size: 20px;height: unset !important">Instagram Captions/Quotes for {{ category.category }}</mat-panel-title>
           <!-- <img style="margin-left: auto;height: 50px;margin-top: 5px;margin-right: 10px;" [src]="category.image" alt="Category Image"> -->
 
         </mat-expansion-panel-header>
