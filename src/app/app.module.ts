@@ -7,7 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { CaptionsComponent } from './captions/captions.component';
 import {ClipboardModule} from '@angular/cdk/clipboard';
-import {MatSnackBarModule} from '@angular/material/snack-bar';
+// import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
@@ -20,7 +20,7 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     BrowserAnimationsModule,
     MatExpansionModule,
     ClipboardModule,
-    MatSnackBarModule
+    // MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
