@@ -12,7 +12,7 @@
     "deploy": "gh-pages -d build"
   },
   "private": true,
-  "homepage": "“http://www.captionsplanet.co.in/",
+  "homepage": "“https://www.captionsplanet.co.in/",
   "dependencies": {
     "@angular/animations": "~9.0.0",
     "@angular/cdk": "^9.2.4",
