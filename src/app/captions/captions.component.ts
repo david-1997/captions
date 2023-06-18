@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MatSnackBar } from '@angular/material/snack-bar';
+// import { MatSnackBar } from '@angular/material/snack-bar';
 
 interface Caption {
   category: string;
@@ -14,7 +14,7 @@ interface Caption {
 })
 export class CaptionsComponent {
 
-  constructor(private _snackBar: MatSnackBar) { }
+  // constructor(private _snackBar: MatSnackBar) { }
 
 
   captionCategories: Caption[] = [
@@ -529,9 +529,9 @@ export class CaptionsComponent {
   }
 
   openSnackBar() {
-    this._snackBar.open('Caption copied to clipboard!','',
-    {duration: 2000}
-    );
+    // this._snackBar.open('Caption copied to clipboard!','',
+    // {duration: 2000}
+    // );
 
   }
 
