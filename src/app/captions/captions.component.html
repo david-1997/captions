@@ -21,9 +21,7 @@
           <img [src]="category.image" alt="Category Image">
         </div> -->
         <ul class="caption-list">
-          <li *ngFor="let caption of category.captions"
-          
-           (click)="openSnackBar()" style="font-size: 17.5px;cursor: pointer;margin-bottom: 10px;">{{ caption }}</li>
+          <li *ngFor="let caption of category.captions" [cdkCopyToClipboard]="caption" (click)="openSnackBar()" style="font-size: 17.5px;cursor: pointer;margin-bottom: 10px;">{{ caption }}</li>
         </ul>
       </mat-expansion-panel>
     </mat-accordion>
