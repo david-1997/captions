@@ -7,9 +7,12 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "private": true,
+  "homepage": "“http://www.captionsplanet.co.in/",
   "dependencies": {
     "@angular/animations": "~9.0.0",
     "@angular/cdk": "^9.2.4",
@@ -22,6 +25,7 @@
     "@angular/platform-browser-dynamic": "~9.0.0",
     "@angular/router": "~9.0.0",
     "bootstrap": "^5.3.0",
+    "gh-pages": "^5.0.0",
     "ngx-pipes": "^3.2.2",
     "ngx-toastr": "^17.0.2",
     "querystring": "^0.2.1",
