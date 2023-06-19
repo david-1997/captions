@@ -68,8 +68,13 @@ export class CaptionsComponent {
         "Keep close to nature's heart... and break clear away, once in a while, and climb a mountain or spend a week in the woods. Wash your spirit clean.",
         "Look deep into nature, and then you will understand everything better.",
         "There is no WiFi in the forest, but I promise you will find a better connection.",
-        "Nature is not just a place to visit. It is home."
-      ]
+        "Nature is not just a place to visit. It is home.",
+        "Nature's beauty knows no bounds.",
+        "The scent of flowers can take you to another world.",
+        "The dance of sunlight through the trees is nature's symphony.",
+        "The wonders of nature are endless and ever-changing.",
+        "Nature is the ultimate source of inspiration and renewal."
+        ]
     },
     {
       category: "Food",
